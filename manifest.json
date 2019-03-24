@@ -4,20 +4,20 @@
 "description": "for your productivity",
 "version": "1.0",
 "icons": {
-"man": "19man.png"
+"19": "/icons/19man.png"
 },
 "background": {
     "scripts": ["src/js/background.js"]
 },
 "browser_action": {
     "default_icon": {
-        "19": "19man.png"
+        "19": "/icons/19man.png"
     },
     "default_title": "Tab Reminder",
-    "default_popup": "popup.html"
+    "default_popup": "/src/html/popup.html"
 },
 "permissions": [
-"Tabs",
+"tabs",
 "unlimitedStorage",
 "notifications"
 ]
